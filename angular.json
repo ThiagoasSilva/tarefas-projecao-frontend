@@ -34,7 +34,9 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": [],
+            "scripts": [
+              "node_modules/chart.js/dist/chart.js"
+            ],
             "server": "src/main.server.ts",
             "outputMode": "server",
             "ssr": {
@@ -103,5 +105,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "66f8cf01-d67a-48f1-b00f-0971b7229c43"
   }
 }

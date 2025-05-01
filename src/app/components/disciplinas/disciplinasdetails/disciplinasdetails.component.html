@@ -1,0 +1,45 @@
+<br>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+
+      <div class="col-lg-4 centralizar topo">
+        <div class="card">
+          <div class="card-body">
+
+            <h3>Cadastrar disciplina</h3>
+            <br>
+
+            <mdb-form-control>
+              <input mdbInput type="text" id="nome" class="form-control" [(ngModel)]="disciplina.nome"/>
+              <label mdbLabel class="form-label" for="nome"> Nome </label>
+            </mdb-form-control>
+            <br>
+
+            <mdb-form-control>
+              <input mdbInput type="text" id="nomeProfessor" class="form-control" [(ngModel)]="disciplina.nomeProfessor"/>
+              <label mdbLabel class="form-label" for="nomeProfessor"> Professor </label>
+            </mdb-form-control>
+            <br>
+
+            <mdb-form-control>
+              <input mdbInput type="text" id="horario" class="form-control" [(ngModel)]="disciplina.horario"/>
+              <label mdbLabel class="form-label" for="horario"> Horário </label>
+            </mdb-form-control>
+            <br>
+
+            <mdb-form-control>
+              <input mdbInput type="text" id="sala" class="form-control" [(ngModel)]="disciplina.sala"/>
+              <label mdbLabel class="form-label" for="sala"> Sala </label>
+            </mdb-form-control>
+            <br>
+
+            <button type="button" class="btn btn-primary btn-rounded" mdbRipple (click)="salvar()"> Salvar </button>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>

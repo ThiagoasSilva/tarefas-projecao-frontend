@@ -1,0 +1,45 @@
+<br>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+
+      <div class="col-lg-6 centralizar topo">
+        <div class="card">
+          <div class="card-body">
+
+            <h3>Cadastrar usuario</h3>
+            <br>
+
+            <mdb-form-control>
+              <input mdbInput type="text" id="nome" class="form-control" [(ngModel)]="usuario.nome"/>
+              <label mdbLabel class="form-label" for="nome">Nome</label>
+            </mdb-form-control>
+            <br>
+
+            <mdb-form-control>
+              <input mdbInput type="text" id="cpf" class="form-control" [(ngModel)]="usuario.cpf"/>
+              <label mdbLabel class="form-label" for="cpf">Cpf</label>
+            </mdb-form-control>
+            <br>
+
+            <mdb-form-control>
+              <input mdbInput type="text" id="endereco" class="form-control" [(ngModel)]="usuario.endereco"/>
+              <label mdbLabel class="form-label" for="endereco">Endereço</label>
+            </mdb-form-control>
+            <br>
+
+            <mdb-form-control>
+              <input mdbInput type="text" id="telefone" class="form-control" [(ngModel)]="usuario.telefoneUsuario"/>
+              <label mdbLabel class="form-label" for="telefone">Telefone</label>
+            </mdb-form-control>
+            <br>
+
+            <button type="button" class="btn btn-primary btn-rounded" mdbRipple (click)="salvar()"> Salvar </button>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
