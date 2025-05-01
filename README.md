@@ -1,4 +1,75 @@
-# TarefasProjecaoFront
+# Inicialização da aplicação Angular (frontend)
+
+## 🔧 Pré-requisitos
+
+- [Node.js (versão 16+)](https://nodejs.org/)
+- [Angular CLI](https://angular.io/cli)  
+  (Instale com: `npm install -g @angular/cli`)
+- IDE ([VS Code](https://code.visualstudio.com/Download) recomendado)
+
+---
+
+## 🚀 Passo a passo para iniciar o projeto
+
+### 1. Clone o projeto
+
+**HTTPS:**
+~~~ git
+git clone https://github.com/SeuUsuario/seu-projeto-angular.git
+~~~
+ou
+
+SSH:
+
+~~~ git
+git clone git@github.com:SeuUsuario/seu-projeto-angular.git
+~~~ 
+
+2. Instale as dependências
+
+Acesse o diretório do projeto e execute:
+~~~ bash
+cd seu-projeto-angular
+npm install
+~~~ 
+
+3. Rode o projeto localmente
+
+Use o Angular CLI para iniciar o servidor de desenvolvimento:
+
+~~~ bash
+ng serve
+~~~ 
+
+Ou com abreviação:
+
+~~~ git
+ng s
+~~~
+
+Abra no navegador:
+
+~~~ bash
+http://localhost:4200
+~~~
+
+<details>
+  <summary>Login na aplicação</summary>
+
+#### Usuário
+~~~ git
+admin
+~~~
+
+#### Senha
+~~~ git
+admin
+~~~ 
+---
+</details>
+
+<details>
+  <summary> Angular </summary>
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.9.
 
@@ -57,3 +128,5 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+</details>
