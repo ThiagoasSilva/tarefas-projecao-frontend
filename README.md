@@ -131,6 +131,13 @@ For more information on using the Angular CLI, including detailed command refere
 
 </details>
 
+<details>
+  <summary>Design no figma</summary>
+
+  https://www.figma.com/design/0kAB9NiEbpTpf3NPPohQCW/Gestor-de-trafeas-PROJ?node-id=0-1&t=e7Ab1cXMblo7U2F6-1
+  
+</details>
+
 ---
 ### Casos de Uso - Gestor de Tarefas (Centro Universitário Projeção)
 ~~~ txt
